@@ -21,7 +21,7 @@ theta = 2 * np.pi * num_turns * indices
 radius = indices
 
 x = radius * np.cos(theta)
-y = radius * np.tan(theta)
+y = radius * np.sin(theta)
 
 df = pd.DataFrame({
     "x": x,
